@@ -33,3 +33,20 @@
   background: #457b9d;
   color: #f1faee;
 }
+
+.btn-dark,
+.bg-dark {
+  background: #1d3557;
+  color: #f1faee;
+}
+
+.btn-light,
+.bg-light {
+  background: #f1faee;
+  color: #1d3557;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #f1faee;
+}
