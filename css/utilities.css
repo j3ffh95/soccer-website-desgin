@@ -6,3 +6,30 @@
 .text-secondary {
   color: #457b9d;
 }
+
+/* Button Styles */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #f1faee;
+  background-color: #e63946;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary,
+.bg-primary {
+  background: #457b9d;
+  color: #f1faee;
+}
+
+.btn-secondary,
+.bg-secondary {
+  background: #457b9d;
+  color: #f1faee;
+}
