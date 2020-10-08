@@ -60,7 +60,7 @@ img {
   margin: 0 5px;
 }
 
-.navbar a:hover {
+ul a:hover {
   border-bottom: #e63946 2px solid;
 }
 
@@ -93,13 +93,12 @@ img {
 
 .hero .content h1 {
   font-size: 55px;
-  margin-bottom: 40px;
 }
 
 .hero .content p {
   font-size: 23px;
   max-width: 600px;
-  margin: 20px 0 -20px;
+  margin: 20px 0 30px;
 }
 
 .hero::before {
