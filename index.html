@@ -92,7 +92,7 @@
           <div class="column">
             <div class="column-1">
               <iframe
-                src="https://www.youtube.com/embed/xVuJCXzr9m8?start=13&autoplay=1&mute=1&controls=0"
+                src="https://www.youtube.com/embed/xVuJCXzr9m8?start=13&autoplay=1&loop=1&mute=1&controls=0"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
@@ -253,6 +253,60 @@
             <img src="images/team/person3.jpg" alt="" />
             <h4>Steve Smith</h4>
             <p>Marketing Head</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img
+                src="./images/home/contact.jpg"
+                alt="wacthing soccer photo"
+              />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-light">
+              <h2>Request Callback</h2>
+              <form action="" class="callback-form">
+                <div class="form-control">
+                  <label for="name"></label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter name"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email"></label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-control">
+                  <input
+                    type="tel"
+                    name="telphone"
+                    placeholder="888 888 8888"
+                    pattern="[0-9]{3} [0-9]{3} [0-9]{4}"
+                    maxlength="12"
+                    title="Ten digits code"
+                    required
+                  />
+                  <label style="font-size: 9px; padding-left: 20px">
+                    Eg : 081 222 2224
+                  </label>
+                </div>
+                <input type="submit" value="Send" class="btn" id="submit" />
+              </form>
+            </div>
           </div>
         </div>
       </section>
