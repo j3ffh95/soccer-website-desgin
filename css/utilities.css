@@ -63,3 +63,15 @@
 .flex-items > div {
   padding: 20px;
 }
+
+/* Flex Columns */
+.flex-columns.flex-revers .row {
+  flex-direction: row-reverse;
+}
+
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
