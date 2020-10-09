@@ -143,7 +143,7 @@ ul a:hover {
 }
 
 .team img {
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 /* Callback form */
@@ -188,3 +188,17 @@ ul a:hover {
   text-align: center;
   height: 200px;
 }
+
+.footer a {
+  color: #f1faee;
+}
+
+.footer a:hover {
+  color: #e63946;
+}
+
+.footer .social > * {
+  margin-right: 30px;
+}
+
+/* Mobile */
