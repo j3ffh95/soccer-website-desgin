@@ -85,7 +85,7 @@
 
 .flex-columns .column .column-1,
 .flex-columns .column .column-2 {
-  height: 400px;
+  height: 100%;
 }
 
 .flex-columns iframe {
