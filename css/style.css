@@ -50,9 +50,9 @@ img {
   transition: 0.5s;
 }
 
-/* .navbar.top {
+.navbar.top {
   background-color: transparent;
-} */
+}
 
 .navbar a {
   color: #f1faee;
