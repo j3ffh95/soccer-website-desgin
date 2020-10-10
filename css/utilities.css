@@ -76,6 +76,10 @@
   width: 100%;
 }
 
+.flex-columns .blog-row {
+  margin: 6rem 0;
+}
+
 .flex-columns .column {
   display: flex;
   flex-direction: column;
